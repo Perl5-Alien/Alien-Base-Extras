@@ -31,7 +31,3 @@ my $builder = Module::Build->new(
 
 $builder->create_build_script;
 
-# for do-loading
-no warnings 'void';
-$builder;
-
