@@ -1,0 +1,4 @@
+Build.PL
+inc/dontpanic-1.0.tar.gz
+lib/Alien/DontPanic.pm
+MANIFEST			This list of files
