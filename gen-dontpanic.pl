@@ -9,7 +9,7 @@ use Archive::Tar;
 use File::Find;
 
 my $source = 'dontpanic';
-my $dest = 'Alien-DontPanic/inc';
+my $dest = 'Acme-Alien-DontPanic/inc';
 my $file = 'dontpanic-1.0.tar.gz';
 
 {
