@@ -2,12 +2,13 @@ use strict;
 use warnings;
 
 use Test::More tests => 3;
-use Acme::Alien::DontPanic;
+require Acme::Alien::DontPanic;
+my $alien = Acme::Alien::DontPanic->new;
 
 use Text::ParseWords qw/shellwords/;
 
-my @cflags = shellwords( Acme::Alien::DontPanic->cflags );
-my @libs   = shellwords( Acme::Alien::DontPanic->libs );
+my @cflags = shellwords( $alien->cflags );
+my @libs   = shellwords( $alien->libs );
 
 my ($libdir) = grep { s/^-L// } @libs;
 ok( -d $libdir, '-L path exists' );
