@@ -1,11 +1,11 @@
-package Ford::Prefect;
+package Acme::Ford::Prefect;
 
 use strict;
 use warnings;
 
-use Alien::DontPanic;
+use Acme::Alien::DontPanic;
 
-our $VERSION = '0.01';
+our $VERSION = '0.001';
 $VERSION = eval $VERSION;
 
 #use XSLoader;

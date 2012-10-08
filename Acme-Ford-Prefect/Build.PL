@@ -2,17 +2,15 @@ use strict;
 use warnings;
 
 use Module::Build;
-use Alien::DontPanic;
+use Acme::Alien::DontPanic;
 
-my $dontpanic = Alien::DontPanic->new;
+my $dontpanic = Acme::Alien::DontPanic->new;
 
-my $pc = $dontpanic->pkgconfig('dontpanic');
-
-my $cflags = $pc->keyword('Cflags');
-my $libs   = $pc->keyword('Libs');
+my $cflags = $dontpanic->cflags;
+my $libs   = $dontpanic->libs;
 
 my $builder = Module::Build->new(
-    module_name       => 'Ford::Prefect',
+    module_name       => 'Acme::Ford::Prefect',
     dist_abstract     => 'Part of the test framework for Alien::Base',
     dist_author       => 'Joel Berger <joel.a.berger@gmail.com>',
     license           => 'perl',
