@@ -1,0 +1,5 @@
+Revision history for Perl module Alien::Base.
+
+0.001  Oct 8, 2012
+	- Initial release
+		- related to Alien::Base 0.000_022 dev release (major refactoring)

@@ -1,4 +1,8 @@
 Build.PL
+Changes
 lib/Acme/Ford/Prefect.pm
 lib/Acme/Ford/Prefect.xs
 MANIFEST			This list of files
+META.json
+META.yml
+t/answer.t
