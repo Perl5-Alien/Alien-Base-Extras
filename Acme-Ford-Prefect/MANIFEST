@@ -6,3 +6,4 @@ MANIFEST			This list of files
 META.json
 META.yml
 t/answer.t
+t/dontpanic_packlist.t

@@ -1,5 +1,12 @@
 Revision history for Perl module Alien::Base.
 
+0.003  Nov 4, 2012
+	- Number 0.003 to correspond with Acme::Alien::DontPanic
+	- Depend on Acme::Alien::DontPanic 0.003 (A::B 0.001_001)
+	- More tests
+		- Packlist
+		- AlienLoaded hash
+
 0.001  Oct 8, 2012
 	- Initial release
 		- related to Alien::Base 0.000_022 dev release (major refactoring)

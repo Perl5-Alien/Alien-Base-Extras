@@ -5,7 +5,7 @@ use warnings;
 
 use Acme::Alien::DontPanic;
 
-our $VERSION = '0.001';
+our $VERSION = '0.003';
 $VERSION = eval $VERSION;
 
 #use XSLoader;
