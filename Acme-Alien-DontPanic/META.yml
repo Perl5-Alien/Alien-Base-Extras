@@ -4,10 +4,10 @@ author:
   - 'Joel A. Berger <joel.a.berger@gmail.com>'
 build_requires: {}
 configure_requires:
-  Alien::Base: 0
+  Alien::Base: 0.001_001
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Module::Build version 0.4, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,11 +16,11 @@ name: Acme-Alien-DontPanic
 provides:
   Acme::Alien::DontPanic:
     file: lib/Acme/Alien/DontPanic.pm
-    version: 0.002
+    version: 0.003
 requires:
   Alien::Base: 0
   File::ShareDir: 1.00
   perl: v5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.002
+version: 0.003
