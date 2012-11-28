@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.004  Nov 28, 2012
+	- Prevent test failure on CPANtesters that don't fully install modules
+
 0.003  Nov 4, 2012
 	- Number 0.003 to correspond with Acme::Alien::DontPanic
 	- Depend on Acme::Alien::DontPanic 0.003 (A::B 0.001_001)

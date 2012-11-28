@@ -7,7 +7,12 @@ use File::Find;
 use File::ShareDir qw/dist_dir/;
 
 my $inst = ExtUtils::Installed->new;
-my $packlist = $inst->packlist('Acme::Alien::DontPanic');
+my $packlist = eval { $inst->packlist('Acme::Alien::DontPanic') };
+
+unless ( defined $packlist ) {
+  plan skip_all => 'Packlist test not valid when Acme::Alien::DontPanic is not fully installed'; 
+}
+
 my $dir = dist_dir('Acme-Alien-DontPanic');
 
 my $test = sub {
