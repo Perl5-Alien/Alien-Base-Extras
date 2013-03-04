@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.005  Mar 4, 2013
+	- Depend on Alien::Base 0.003
+
 0.003  Nov 4, 2012
 	- Move more tests from here to Acme::Ford::Prefect
 	- Depend on Alien::Base 0.001_001
