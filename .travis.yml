@@ -8,6 +8,9 @@ install:
   - make
   - sudo make install
   - cd ..
+  - echo "/usr/local/lib" > local.conf
+  - sudo cp local.conf /etc/ld.so.conf.d/local.conf
+  - sudo ldconfig
 
 perl:
   - "5.8"
