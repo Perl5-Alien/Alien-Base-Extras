@@ -31,4 +31,12 @@ Makefile.in
 /Acme-Alien-DontPanic/_build
 /Acme-Alien-DontPanic/blib
 
+/Acme-Ford-Prefect/Build
+/Acme-Ford-Prefect/MYMETA.json
+/Acme-Ford-Prefect/MYMETA.yml
+/Acme-Ford-Prefect/_alien
+/Acme-Ford-Prefect/_share
+/Acme-Ford-Prefect/_build
+/Acme-Ford-Prefect/blib
+/Acme-Ford-Prefect/lib/Acme/Ford/Prefect.c
 
