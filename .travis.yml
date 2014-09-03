@@ -7,6 +7,7 @@ install:
   - ./configure
   - make
   - sudo make install
+  - cd ..
 
 perl:
   - "5.8"
@@ -21,7 +22,8 @@ perl:
 script:
   - cd Acme-Alien-DontPanic
   - cpanm -v .
-  - cd ../Acme-Ford-Prefect
+  - cd ..
+  - cd Acme-Ford-Prefect
   - cpanm -v .
 
 env:
