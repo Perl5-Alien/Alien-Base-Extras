@@ -1,7 +1,7 @@
 language: perl
 
 install:
-  - cpanm Alien::Base
+  - cpanm -v Alien::Base
   - cd dontpanic
   - ./autogen.sh
   - ./configure
@@ -19,8 +19,10 @@ perl:
   - "5.21"
 
 script:
-  - cpanm -v ./Acme-Alien-DontPanic
-  - cpanm -v ./Acme-Ford-Prefect
+  - cd Acme-Alien-DontPanic
+  - cpanm -v .
+  - cd ../Acme-Ford-Prefect
+  - cpanm -v .
 
 env:
   - ALIEN_FORCE=1
