@@ -7,7 +7,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   module_name => 'Acme::Alien::DontPanic',
   license => 'perl',
   configure_requires => {
-    'Alien::Base' => '0.003',
+    'Alien::Base' => '0.005',
     'Module::Build' => 0.38,
   },
   requires => {
@@ -16,6 +16,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   },
   dist_author => 'Joel A. Berger <joel.a.berger@gmail.com>',
   alien_name => 'dontpanic',
+  alien_isolate_dynamic => 1,
   alien_repository => {
     protocol => 'local',
     location => 'inc',
