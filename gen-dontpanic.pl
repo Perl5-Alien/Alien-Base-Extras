@@ -1,5 +1,10 @@
 #!/usr/bin/env perl
 
+# plicease: this script didn't work for me, and it creates
+# the archive itself.  I wrote gen-dontpanic.sh which does
+# more or less the same thing but creates the tarball using
+# autotools itself.
+
 use strict;
 use warnings;
 
