@@ -30,6 +30,8 @@ Makefile.in
 /Acme-Alien-DontPanic/_share
 /Acme-Alien-DontPanic/_build
 /Acme-Alien-DontPanic/blib
+/Acme-Alien-DontPanic/inc/dontpanic/
+/Acme-Alien-DontPanic/*.tmp
 
 /Acme-Ford-Prefect/Build
 /Acme-Ford-Prefect/MYMETA.json
