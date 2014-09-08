@@ -23,5 +23,10 @@ my $builder = Alien::Base::ModuleBuild->new(
     pattern  => qr/^dontpanic-([\d\.]+)\.tar\.gz$/,
   },
 );
+
+$builder->add_to_cleanup(
+  'inc/dontpanic',
+);
+
 $builder->create_build_script;
 
