@@ -24,6 +24,7 @@ Makefile.in
 *~
 
 /Acme-Alien-DontPanic/Build
+/Acme-Alien-DontPanic/Build.bat
 /Acme-Alien-DontPanic/MYMETA.json
 /Acme-Alien-DontPanic/MYMETA.yml
 /Acme-Alien-DontPanic/_alien
@@ -34,6 +35,7 @@ Makefile.in
 /Acme-Alien-DontPanic/*.tmp
 
 /Acme-Ford-Prefect/Build
+/Acme-Ford-Prefect/Build.bat
 /Acme-Ford-Prefect/MYMETA.json
 /Acme-Ford-Prefect/MYMETA.yml
 /Acme-Ford-Prefect/_alien
