@@ -10,6 +10,9 @@ my $builder = Alien::Base::ModuleBuild->new(
     'Alien::Base' => '0.005',
     'Module::Build' => 0.38,
   },
+  test_requires => {
+    'Test::More'    => 0,
+  },
   requires => {
     'perl' => '5.8.1',
     'Alien::Base' => 0,
@@ -23,5 +26,10 @@ my $builder = Alien::Base::ModuleBuild->new(
     pattern  => qr/^dontpanic-([\d\.]+)\.tar\.gz$/,
   },
 );
+
+$builder->add_to_cleanup(
+  'inc/dontpanic',
+);
+
 $builder->create_build_script;
 

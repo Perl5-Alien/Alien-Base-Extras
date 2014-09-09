@@ -21,6 +21,9 @@ my $builder = Module::Build->new(
       'Module::Build' => 0.38,
       'Acme::Alien::DontPanic' => 0.005,
     },
+    test_requires => {
+      'Test::More'    => 0,
+    },
     build_requires    => {
       'ExtUtils::CBuilder' => 0,
     },
