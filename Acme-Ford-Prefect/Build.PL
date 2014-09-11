@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
     },
     configure_requires => {
       'Module::Build' => 0.38,
-      'Acme::Alien::DontPanic' => 0.005,
+      'Acme::Alien::DontPanic' => 0.006,
     },
     test_requires => {
       'Test::More'    => 0,
@@ -27,8 +27,18 @@ my $builder = Module::Build->new(
     build_requires    => {
       'ExtUtils::CBuilder' => 0,
     },
+    requires => {
+      'Acme::Alien::DontPanic' => 0.006,
+    },
     extra_compiler_flags => $cflags,
     extra_linker_flags   => $libs, 
+    meta_merge => {
+      resources  => {
+        repository => "http://github.com/Perl5-Alien/Alien-Base-Extras",
+        bugtracker => "http://github.com/Perl5-Alien/Alien-Base-Extras/issues",
+        x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
+      },
+    },  
 );
 
 $builder->create_build_script;

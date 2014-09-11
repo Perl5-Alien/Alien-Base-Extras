@@ -2,25 +2,29 @@
 abstract: 'Test Module for Alien::Base'
 author:
   - 'Joel A. Berger <joel.a.berger@gmail.com>'
-build_requires: {}
+build_requires:
+  Test::More: '0'
 configure_requires:
-  Alien::Base: 0.003
-  Module::Build: 0.38
+  Alien::Base: '0.005'
+  Module::Build: '0.38'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Acme-Alien-DontPanic
 provides:
   Acme::Alien::DontPanic:
     file: lib/Acme/Alien/DontPanic.pm
-    version: 0.005
+    version: '0.006'
 requires:
-  Alien::Base: 0
-  File::ShareDir: 1.00
+  Alien::Base: '0.005'
+  File::ShareDir: '1.00'
   perl: v5.8.1
 resources:
+  MailingList: https://groups.google.com/forum/#!forum/perl5-alien
+  bugtracker: http://github.com/Perl5-Alien/Alien-Base-Extras/issues
   license: http://dev.perl.org/licenses/
-version: 0.005
+  repository: http://github.com/Perl5-Alien/Alien-Base-Extras
+version: '0.006'

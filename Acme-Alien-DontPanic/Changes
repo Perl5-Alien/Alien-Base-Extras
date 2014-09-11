@@ -1,5 +1,9 @@
 Revision history for Perl module Alien::Base.
 
+0.006  Sep 11, 2014
+  - Require Alien::Base 0.005
+  - Support for building system provided dontpanic (plicease gh#2)
+
 0.005  Mar 4, 2013
 	- Depend on Alien::Base 0.003
 

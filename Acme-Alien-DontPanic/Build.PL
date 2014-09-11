@@ -15,7 +15,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   },
   requires => {
     'perl' => '5.8.1',
-    'Alien::Base' => 0,
+    'Alien::Base' => '0.005',
   },
   dist_author => 'Joel A. Berger <joel.a.berger@gmail.com>',
   alien_name => 'dontpanic',
@@ -25,6 +25,13 @@ my $builder = Alien::Base::ModuleBuild->new(
     location => 'inc',
     pattern  => qr/^dontpanic-([\d\.]+)\.tar\.gz$/,
   },
+  meta_merge => {
+    resources  => {
+      repository => "http://github.com/Perl5-Alien/Alien-Base-Extras",
+      bugtracker => "http://github.com/Perl5-Alien/Alien-Base-Extras/issues",
+      x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
+    },
+  },  
 );
 
 $builder->add_to_cleanup(
