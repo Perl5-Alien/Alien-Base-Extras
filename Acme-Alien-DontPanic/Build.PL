@@ -25,6 +25,7 @@ my $builder = Alien::Base::ModuleBuild->new(
     location => 'inc',
     pattern  => qr/^dontpanic-([\d\.]+)\.tar\.gz$/,
   },
+  alien_inline_auto_include => [ 'libdontpanic.h' ],
   meta_merge => {
     resources  => {
       repository => "http://github.com/Perl5-Alien/Alien-Base-Extras",
