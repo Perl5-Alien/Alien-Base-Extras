@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.007  Sep 22, 2014
+  - use alien_inline_auto_include for Inline integration
+
 0.006  Sep 11, 2014
   - Require Alien::Base 0.005
   - Support for building system provided dontpanic (plicease gh#2)

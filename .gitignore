@@ -34,6 +34,7 @@ Makefile.in
 /Acme-Alien-DontPanic/inc/dontpanic/
 /Acme-Alien-DontPanic/*.tmp
 /Acme-Alien-DontPanic/Acme-Alien-DontPanic-*
+/Acme-Alien-DontPanic/*.bak
 
 /Acme-Ford-Prefect/Build
 /Acme-Ford-Prefect/Build.bat
@@ -45,5 +46,4 @@ Makefile.in
 /Acme-Ford-Prefect/blib
 /Acme-Ford-Prefect/lib/Acme/Ford/Prefect.c
 /Acme-Ford-Prefect/Acme-Ford-Prefect-*
-
-
+/Acme-Ford-Prefect/*.bak
