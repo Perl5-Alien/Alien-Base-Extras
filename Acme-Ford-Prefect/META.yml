@@ -6,10 +6,10 @@ build_requires:
   ExtUtils::CBuilder: '0'
   Test::More: '0'
 configure_requires:
-  Acme::Alien::DontPanic: '0.007'
+  Acme::Alien::DontPanic: '0.008'
   Module::Build: '0.38'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142690'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,7 +18,7 @@ name: Acme-Ford-Prefect
 provides:
   Acme::Ford::Prefect:
     file: lib/Acme/Ford/Prefect.pm
-    version: '0.007'
+    version: '0.008'
 requires:
   Acme::Alien::DontPanic: '0.007'
 resources:
@@ -26,4 +26,4 @@ resources:
   bugtracker: http://github.com/Perl5-Alien/Alien-Base-Extras/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/Perl5-Alien/Alien-Base-Extras
-version: '0.007'
+version: '0.008'

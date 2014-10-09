@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.008  Oct 9, 2014
+  - bundle a dontpanic that includes a dll on windows
+
 0.007  Sep 22, 2014
   - use alien_inline_auto_include for Inline integration
 
