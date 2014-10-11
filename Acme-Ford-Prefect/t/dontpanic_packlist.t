@@ -13,6 +13,10 @@ plan skip_all => 'only for share install'
 my $inst = ExtUtils::Installed->new;
 my $packlist = eval { $inst->packlist('Acme::Alien::DontPanic') };
 
+if($^O eq 'MSWin32') {
+  %$packlist = map { $_ => undef } map { Win32::GetLongPathName($_) } keys %$packlist;
+}
+
 unless ( defined $packlist ) {
   plan skip_all => 'Packlist test not valid when Acme::Alien::DontPanic is not fully installed'; 
 }
