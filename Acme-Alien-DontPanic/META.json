@@ -29,6 +29,8 @@
       },
       "test" : {
          "requires" : {
+            "Capture::Tiny" : "0",
+            "ExtUtils::CBuilder" : "0",
             "Test::More" : "0"
          }
       }
@@ -36,7 +38,7 @@
    "provides" : {
       "Acme::Alien::DontPanic" : {
          "file" : "lib/Acme/Alien/DontPanic.pm",
-         "version" : "0.009"
+         "version" : "0.010"
       }
    },
    "release_status" : "stable",
@@ -52,5 +54,5 @@
       },
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.009"
+   "version" : "0.010"
 }
