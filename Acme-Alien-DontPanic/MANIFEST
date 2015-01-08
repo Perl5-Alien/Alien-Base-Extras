@@ -7,3 +7,5 @@ META.json
 META.yml
 t/00-use.t
 t/eud.t
+t/static_link.t
+t/static_link/main.c

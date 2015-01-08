@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 use Test::More tests => 1;
-use Acme::Alien::DontPanic;
+use Acme::Alien::DontPanic ();
 
 use Text::ParseWords qw/shellwords/;
 

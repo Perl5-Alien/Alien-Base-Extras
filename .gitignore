@@ -21,6 +21,9 @@ Makefile.in
 *.la
 *.o
 *.lo
+*.dll
+*.so
+*.bundle
 *~
 
 /Acme-Alien-DontPanic/Build

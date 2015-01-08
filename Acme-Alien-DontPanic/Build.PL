@@ -11,7 +11,9 @@ my $builder = Alien::Base::ModuleBuild->new(
     'Module::Build' => 0.38,
   },
   test_requires => {
-    'Test::More'    => 0,
+    'Test::More'         => 0,
+    'ExtUtils::CBuilder' => 0,
+    'Capture::Tiny'      => 0,
   },
   requires => {
     'perl' => '5.8.1',
@@ -37,6 +39,10 @@ my $builder = Alien::Base::ModuleBuild->new(
 
 $builder->add_to_cleanup(
   'inc/dontpanic',
+  't/static_link/*.o',
+  't/static_link/main.so',
+  't/static_link/main.dll',
+  't/static_link/main.bundle',
 );
 
 $builder->create_build_script;
