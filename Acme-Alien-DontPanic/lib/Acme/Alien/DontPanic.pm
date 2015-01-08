@@ -16,19 +16,6 @@ __END__
 
 Acme::Alien::DontPanic - Test Module for Alien::Base
 
-=head1 SYNOPSIS
-
- package Acme::Ford::Prefect;
-
- use strict;
- use warnings;
-
- use Acme::Alien::DontPanic;
-
- print answer() # 42
-
- 1;
-
 =head1 DESCRIPTION
 
 L<Alien::Base> comprises base classes to help in the construction of C<Alien::> modules. Modules in the L<Alien> namespace are used to locate and install (if necessary) external libraries needed by other Perl modules.
