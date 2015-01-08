@@ -6,14 +6,10 @@ use warnings;
 use Acme::Alien::DontPanic;
 
 our $VERSION = '0.010';
-$VERSION = eval $VERSION;
-
-#use XSLoader;
-#XSLoader::load;
-
 require DynaLoader;
 our @ISA = 'DynaLoader';
 __PACKAGE__->bootstrap($VERSION);
+$VERSION = eval $VERSION;
 
 1;
 
