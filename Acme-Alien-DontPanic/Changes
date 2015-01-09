@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.011  Jan 8, 2015
+  - Require Alien::Base 0.007
+
 0.010  Jan 8, 2015
   - add test to make sure that we produce a static lib that can be used to create a dynamic lib
 

@@ -7,7 +7,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   module_name => 'Acme::Alien::DontPanic',
   license => 'perl',
   configure_requires => {
-    'Alien::Base' => '0.006',
+    'Alien::Base' => '0.007',
     'Module::Build' => 0.38,
   },
   test_requires => {
