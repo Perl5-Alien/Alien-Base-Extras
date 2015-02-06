@@ -58,7 +58,9 @@ L<http://github.com/jberger/Alien-Base-Extras>
 
 =head1 AUTHOR
 
-Joel Berger, E<lt>joel.a.berger@gmail.comE<gt>
+Original author: Joel Berger, E<lt>joel.a.berger@gmail.comE<gt>
+
+Current maintainer: Graham Ollis E<lt>plicease@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 

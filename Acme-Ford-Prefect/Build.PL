@@ -12,10 +12,13 @@ my $libs   = $dontpanic->libs;
 my $builder = Module::Build->new(
     module_name       => 'Acme::Ford::Prefect',
     dist_abstract     => 'Part of the test framework for Alien::Base',
-    dist_author       => 'Joel Berger <joel.a.berger@gmail.com>',
+    dist_author       => [
+      'Graham Ollis <plicease@cpan.org>',
+      'Joel Berger <joel.a.berger@gmail.com>',
+    ],
     license           => 'perl',
     requires          => {
-      'perl' => '5.008',
+      'perl' => '5.008001',
     },
     configure_requires => {
       'Module::Build' => 0.38,

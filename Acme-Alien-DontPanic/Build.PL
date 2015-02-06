@@ -16,10 +16,13 @@ my $builder = Alien::Base::ModuleBuild->new(
     'Capture::Tiny'      => 0,
   },
   requires => {
-    'perl' => '5.8.1',
+    'perl' => '5.008001',
     'Alien::Base' => '0.006',
   },
-  dist_author => 'Joel A. Berger <joel.a.berger@gmail.com>',
+  dist_author => [
+    'Graham Ollis <plicease@cpan.org>'
+    'Joel A. Berger <joel.a.berger@gmail.com>',
+  ],
   alien_name => 'dontpanic',
   alien_isolate_dynamic => 1,
   alien_repository => {
