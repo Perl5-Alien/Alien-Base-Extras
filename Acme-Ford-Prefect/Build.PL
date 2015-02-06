@@ -21,8 +21,8 @@ my $builder = Module::Build->new(
       'perl' => '5.008001',
     },
     configure_requires => {
-      'Module::Build' => 0.38,
-      'Acme::Alien::DontPanic' => 0.011,
+      'Module::Build' => '0.38',
+      'Acme::Alien::DontPanic' => '0.012',
     },
     test_requires => {
       'Test::More'    => 0,

@@ -1,6 +1,7 @@
 {
    "abstract" : "Test Module for Alien::Base",
    "author" : [
+      "Graham Ollis <plicease@cpan.org>",
       "Joel A. Berger <joel.a.berger@gmail.com>"
    ],
    "dynamic_config" : 1,
@@ -16,15 +17,15 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Alien::Base" : "0.007",
+            "Alien::Base" : "0.009",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Alien::Base" : "0.006",
+            "Alien::Base" : "0.009",
             "File::ShareDir" : "1.00",
-            "perl" : "v5.8.1"
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -38,7 +39,7 @@
    "provides" : {
       "Acme::Alien::DontPanic" : {
          "file" : "lib/Acme/Alien/DontPanic.pm",
-         "version" : "0.011"
+         "version" : "0.012"
       }
    },
    "release_status" : "stable",
@@ -54,5 +55,5 @@
       },
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.011"
+   "version" : "0.012"
 }
