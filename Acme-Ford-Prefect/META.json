@@ -28,7 +28,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.011"
+            "Acme::Alien::DontPanic" : "0.011",
+            "perl" : "5.008001"
          }
       },
       "test" : {

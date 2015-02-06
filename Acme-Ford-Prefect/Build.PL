@@ -17,9 +17,6 @@ my $builder = Module::Build->new(
       'Joel Berger <joel.a.berger@gmail.com>',
     ],
     license           => 'perl',
-    requires          => {
-      'perl' => '5.008001',
-    },
     configure_requires => {
       'Module::Build' => '0.38',
       'Acme::Alien::DontPanic' => '0.012',
@@ -32,6 +29,7 @@ my $builder = Module::Build->new(
     },
     requires => {
       'Acme::Alien::DontPanic' => 0.011,
+      'perl' => '5.008001',
     },
     extra_compiler_flags => $cflags,
     extra_linker_flags   => $libs, 
