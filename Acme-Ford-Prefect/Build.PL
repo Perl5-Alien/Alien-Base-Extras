@@ -28,7 +28,7 @@ my $builder = Module::Build->new(
       'ExtUtils::CBuilder' => 0,
     },
     requires => {
-      'Acme::Alien::DontPanic' => 0.011,
+      'Acme::Alien::DontPanic' => 0.014,
       'perl' => '5.008001',
     },
     extra_compiler_flags => $cflags,
