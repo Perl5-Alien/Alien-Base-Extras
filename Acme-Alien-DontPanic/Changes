@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.016  Feb 22, 2015
+  - Require Alien::Base 0.012
+
 0.015  Feb 22, 2015
   - Require Alien::Base 0.011
 
