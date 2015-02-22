@@ -1,5 +1,8 @@
 Revision history for Perl module Alien::Base.
 
+0.015  Jan 22, 2015
+  - Require Acme::Alien::DontPanic 0.015 (Alien::Base 0.011)
+
 0.014  Jan 17, 2015
   - Require Acme::Alien::DontPanic 0.014 (Alien::Base 0.010)
 
