@@ -20,7 +20,7 @@ name: Acme-Alien-DontPanic
 provides:
   Acme::Alien::DontPanic:
     file: lib/Acme/Alien/DontPanic.pm
-    version: '0.016'
+    version: '0.017'
 requires:
   Alien::Base: '0.012'
   File::ShareDir: '1.00'
@@ -30,4 +30,4 @@ resources:
   bugtracker: http://github.com/Perl5-Alien/Alien-Base-Extras/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/Perl5-Alien/Alien-Base-Extras
-version: '0.016'
+version: '0.017'

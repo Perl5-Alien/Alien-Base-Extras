@@ -1,9 +1,14 @@
 Revision history for Perl module Alien::Base.
 
-0.016  Jan 22, 2015
+0.017  Feb 24, 2015
+  - Require Acme::Alien::DontPanic 0.017 (Alien::Base 0.012)
+  - skip packlist test if the Acme::Alien::DontPanic share dir
+    appears to have moved
+
+0.016  Feb 22, 2015
   - Require Acme::Alien::DontPanic 0.016 (Alien::Base 0.012)
 
-0.015  Jan 22, 2015
+0.015  Feb 22, 2015
   - Require Acme::Alien::DontPanic 0.015 (Alien::Base 0.011)
 
 0.014  Jan 17, 2015

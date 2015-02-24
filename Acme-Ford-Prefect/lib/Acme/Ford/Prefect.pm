@@ -5,7 +5,7 @@ use warnings;
 
 use Acme::Alien::DontPanic;
 
-our $VERSION = '0.016';
+our $VERSION = '0.017';
 require DynaLoader;
 our @ISA = 'DynaLoader';
 __PACKAGE__->bootstrap($VERSION);

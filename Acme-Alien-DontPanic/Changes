@@ -1,4 +1,8 @@
-Revision history for Perl module Alien::Base.
+Revision history for Perl module Acme::Alien::DontPanic.
+
+0.017  Feb 24, 2015
+  - Release identical to 0.016
+  - Intended for use with Acme::Ford::Prefect 0.017
 
 0.016  Feb 22, 2015
   - Require Alien::Base 0.012
