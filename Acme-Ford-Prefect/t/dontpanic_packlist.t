@@ -10,6 +10,10 @@ use Acme::Alien::DontPanic;
 plan skip_all => 'only for share install'
   if Acme::Alien::DontPanic->install_type eq 'system';
 
+plan skip_all => 'dist appears to have been moved'
+  if defined Acme::Alien::DontPanic->config('original_prefix')
+  && Acme::Alien::DontPanic->config('original_prefix') ne Acme::Alien::DontPanic->dist_dir;
+
 my $inst = ExtUtils::Installed->new;
 my $packlist = eval { $inst->packlist('Acme::Alien::DontPanic') };
 
