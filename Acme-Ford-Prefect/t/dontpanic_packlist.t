@@ -26,7 +26,11 @@ unless ( defined $packlist ) {
 }
 
 my $dir = dist_dir('Acme-Alien-DontPanic');
+
 $dir =~ s{\\}{/}g if $^O eq 'MSWin32';
+
+plan skip_all => 'appears to be a blib install'
+  if $dir =~ m{/blib/};
 
 my $test = sub {
   my $file = $File::Find::name;
