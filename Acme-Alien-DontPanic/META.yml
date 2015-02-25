@@ -8,7 +8,7 @@ build_requires:
   ExtUtils::CBuilder: '0'
   Test::More: '0'
 configure_requires:
-  Alien::Base: '0.012'
+  Alien::Base: '0.014'
   Module::Build: '0.38'
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4211, CPAN::Meta::Converter version 2.143240'
@@ -20,9 +20,9 @@ name: Acme-Alien-DontPanic
 provides:
   Acme::Alien::DontPanic:
     file: lib/Acme/Alien/DontPanic.pm
-    version: '0.017'
+    version: '0.018'
 requires:
-  Alien::Base: '0.012'
+  Alien::Base: '0.014'
   File::ShareDir: '1.00'
   perl: '5.008001'
 resources:
@@ -30,4 +30,4 @@ resources:
   bugtracker: http://github.com/Perl5-Alien/Alien-Base-Extras/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/Perl5-Alien/Alien-Base-Extras
-version: '0.017'
+version: '0.018'

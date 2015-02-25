@@ -1,5 +1,10 @@
 Revision history for Perl module Alien::Base.
 
+0.018  Feb 25, 2015
+  - Require Acme::Alien::DontPanic 0.018 (Alien::Base 0.014)
+  - skip packlist test on blib installs.  This should
+    improve usefulness of cpantesters matrix
+
 0.017  Feb 24, 2015
   - Require Acme::Alien::DontPanic 0.017 (Alien::Base 0.012)
   - skip packlist test if the Acme::Alien::DontPanic share dir
