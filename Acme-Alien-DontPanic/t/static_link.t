@@ -41,9 +41,9 @@ my($compile_output, $obj) = capture_merged {
     );
   };
 };
-note $compile_output;
 
-ok defined $obj && -r $obj, "compiled $obj";
+my $ok = ok defined $obj && -r $obj, "compiled $obj";
+$ok ? note $compile_output : diag $compile_output;
 
 my($link_output, $lib) = capture_merged {
   eval { 
@@ -53,6 +53,7 @@ my($link_output, $lib) = capture_merged {
     );
   };
 };
-note $link_output;
 
-ok defined $lib && -r $lib, "linked $lib";
+$ok = ok defined $lib && -r $lib, "linked $lib";
+
+$ok ? note $link_output : diag $link_output;
