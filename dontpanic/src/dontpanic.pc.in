@@ -6,7 +6,7 @@ includedir=@includedir@
 Name: dontpanic
 Description: An example library
 Version: @VERSION@
-Cflags: -I${includedir}
+Cflags: -I${prefix} -I${includedir}
 Libs: -L${libdir} -ldontpanic
 Libs.private: @LIBS@
 
