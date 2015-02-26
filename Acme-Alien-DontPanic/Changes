@@ -1,5 +1,9 @@
 Revision history for Perl module Acme::Alien::DontPanic.
 
+0.019  Feb 26, 2015
+  - Additional diagnostics during testing
+  - Add -I${prefix} to dontpanic .pc file for bib install
+
 0.018  Feb 25, 2015
   - Require Alien::Base 0.014
 
