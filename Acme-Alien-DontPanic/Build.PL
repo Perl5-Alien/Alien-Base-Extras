@@ -3,6 +3,16 @@ use warnings;
 
 use Alien::Base::ModuleBuild;
 
+if($^O eq 'midnightbsd')
+{
+  print "Sorry, MidnightBSD is not supported.\n";
+  print "See:\n";
+  print "https://github.com/Perl5-Alien/Alien-Base-Extras/issues/4\n";
+  print "pull requests to fix this are welcome.\n";
+  print "OS Unsupported\n";
+  exit;
+}
+
 my $builder = Alien::Base::ModuleBuild->new(
   module_name => 'Acme::Alien::DontPanic',
   license => 'perl',
