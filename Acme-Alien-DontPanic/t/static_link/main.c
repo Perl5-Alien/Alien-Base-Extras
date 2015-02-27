@@ -5,3 +5,8 @@ myanswer()
 {
   return answer();
 }
+
+void
+boot_FooBarBaz()
+{
+}

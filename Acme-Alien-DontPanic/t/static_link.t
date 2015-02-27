@@ -50,6 +50,7 @@ my($link_output, $lib) = capture_merged {
     $b->link(
       objects => [ $obj ],
       extra_linker_flags => $extra_linker_flags,
+      module_name => 'FooBarBaz',
     );
   };
 };
