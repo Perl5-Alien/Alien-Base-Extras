@@ -1,4 +1,4 @@
-AM_CFLAGS  = -Wall -I. -D__DONTPANIC_BUILD
+AM_CFLAGS  = -I. -D__DONTPANIC_BUILD
 AM_LDFLAGS =
 
 lib_LTLIBRARIES = libdontpanic.la
