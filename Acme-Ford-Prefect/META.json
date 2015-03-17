@@ -22,13 +22,13 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.018",
+            "Acme::Alien::DontPanic" : "0.020",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.018",
+            "Acme::Alien::DontPanic" : "0.02",
             "perl" : "5.008001"
          }
       },
@@ -41,7 +41,7 @@
    "provides" : {
       "Acme::Ford::Prefect" : {
          "file" : "lib/Acme/Ford/Prefect.pm",
-         "version" : "0.019"
+         "version" : "0.020"
       }
    },
    "release_status" : "stable",
@@ -57,5 +57,5 @@
       },
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.019"
+   "version" : "0.020"
 }
