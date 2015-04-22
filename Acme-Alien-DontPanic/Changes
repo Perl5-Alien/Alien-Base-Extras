@@ -1,5 +1,9 @@
 Revision history for Perl module Acme::Alien::DontPanic.
 
+0.021  Apr 22, 2015
+  - Require Alien::Base 0.016
+  - use alien_stage_install
+
 0.020  Mar 17, 2015
   - Require Alien::Base 0.015
   - Fix for static test on MSWin32 and FreeBSD
