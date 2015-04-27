@@ -1,5 +1,8 @@
 Revision history for Perl module Acme::Alien::DontPanic.
 
+0.023  Apr 27, 2015
+  - Bumped version to match new version of Acme::Ford::Prefect
+
 0.022  Apr 24, 2015
   - Require Alien::Base 0.017
 

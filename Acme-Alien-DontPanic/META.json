@@ -39,7 +39,7 @@
    "provides" : {
       "Acme::Alien::DontPanic" : {
          "file" : "lib/Acme/Alien/DontPanic.pm",
-         "version" : "0.022"
+         "version" : "0.023"
       }
    },
    "release_status" : "stable",
@@ -55,5 +55,5 @@
       },
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.022"
+   "version" : "0.023"
 }
