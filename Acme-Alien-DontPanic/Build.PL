@@ -46,6 +46,7 @@ my $builder = Alien::Base::ModuleBuild->new(
       repository => "http://github.com/Perl5-Alien/Alien-Base-Extras",
       bugtracker => "http://github.com/Perl5-Alien/Alien-Base-Extras/issues",
       x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
+      x_IRC => "irc://irc.perl.org/#native",
     },
   },  
   alien_stage_install => 1,
