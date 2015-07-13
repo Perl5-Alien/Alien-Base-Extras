@@ -1,23 +1,8 @@
 language: perl
 
 install:
-  - wget http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
-  - tar xf autoconf-2.69.tar.gz
-  - cd autoconf-2.69
-  - ./configure
-  - make
-  - sudo make install
-  - cd ..
-  - cpanm -v Alien::Base
-  - cd dontpanic
-  - ./autogen.sh
-  - ./configure
-  - make
-  - sudo make install
-  - cd ..
-  - echo "/usr/local/lib" > local.conf
-  - sudo cp local.conf /etc/ld.so.conf.d/local.conf
-  - sudo ldconfig
+  - bash .travis-install-system.sh
+  - cpanm --installdeps -n ./Acme-Alien-DontPanic
 
 perl:
   - "5.8"
@@ -37,5 +22,7 @@ script:
   - cpanm -v .
 
 env:
+  - ALIEN_FORCE=0 PATH=$PATH:$HOME/travislocal/bin LD_LIBRARY_PATH=$HOME/travislocal/lib PKG_CONFIG_PATH=$HOME/travislocal/lib/pkgconfig
   - ALIEN_FORCE=1
-  - ALIEN_FORCE=0
+
+sudo: false
