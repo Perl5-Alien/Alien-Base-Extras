@@ -20,14 +20,17 @@ my $include_dirs = [
   ))
 ];
 
-my $extra_linker_flags = join ' ', (map { "-L$_" } (
+my $extra_linker_flags = join ' ', map { "-L$_" } (
   File::Spec->catfile(qw(
     _alien dontpanic-1.0 src
   )),
   File::Spec->catfile(qw(
     _alien dontpanic-1.0 src .libs
   )),
-), Acme::Alien::DontPanic->libs);
+);
+
+$extra_linker_flags .= ' ' . Acme::Alien::DontPanic->libs;
+$extra_linker_flags =~ s/\s+$//;
   
 
 note "src = $src";
