@@ -5,7 +5,7 @@
       "Joel Berger <joel.a.berger@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4211",
+   "generated_by" : "Module::Build version 0.4212",
    "license" : [
       "perl_5"
    ],
@@ -22,13 +22,13 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.022",
+            "Acme::Alien::DontPanic" : "0.024",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.022",
+            "Acme::Alien::DontPanic" : "0.024",
             "perl" : "5.008001"
          }
       },
@@ -41,7 +41,7 @@
    "provides" : {
       "Acme::Ford::Prefect" : {
          "file" : "lib/Acme/Ford/Prefect.pm",
-         "version" : "0.023"
+         "version" : "0.024"
       }
    },
    "release_status" : "stable",
@@ -55,7 +55,8 @@
       "repository" : {
          "url" : "http://github.com/Perl5-Alien/Alien-Base-Extras"
       },
+      "x_IRC" : "irc://irc.perl.org/#native",
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.023"
+   "version" : "0.024"
 }
