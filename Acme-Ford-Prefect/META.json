@@ -5,7 +5,7 @@
       "Joel Berger <joel.a.berger@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4212",
+   "generated_by" : "Module::Build version 0.4214",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
       },
       "configure" : {
          "requires" : {
-            "Acme::Alien::DontPanic" : "0.025",
+            "Acme::Alien::DontPanic" : "0.026",
             "Module::Build" : "0.38"
          }
       },
@@ -41,7 +41,7 @@
    "provides" : {
       "Acme::Ford::Prefect" : {
          "file" : "lib/Acme/Ford/Prefect.pm",
-         "version" : "0.025"
+         "version" : "0.026"
       }
    },
    "release_status" : "stable",
@@ -58,5 +58,6 @@
       "x_IRC" : "irc://irc.perl.org/#native",
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
    },
-   "version" : "0.025"
+   "version" : "0.026",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }

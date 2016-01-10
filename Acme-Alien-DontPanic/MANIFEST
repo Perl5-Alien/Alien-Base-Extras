@@ -8,5 +8,7 @@ META.yml
 README
 t/00-use.t
 t/eud.t
+t/ffi.t
 t/static_link.t
 t/static_link/main.c
+t/xs.t
