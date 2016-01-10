@@ -9,7 +9,9 @@ install:
   - SET PERL_LOCAL_LIB_ROOT=C:/Perl5
   - SET PERL_MB_OPT=--install_base C:/Perl5
   - SET PERL_MM_OPT=INSTALL_BASE=C:/Perl5
+  - cd Acme-Alien-DontPanic
   - cpanm -n --installdeps .
+  - cd ..
 
 build: off
 
