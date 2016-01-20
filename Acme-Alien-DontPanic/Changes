@@ -1,5 +1,8 @@
 Revision history for Perl module Acme::Alien::DontPanic.
 
+0.027  Jan 20, 2016
+  - Require Alien::Base 0.025
+
 0.026  Jan 10, 2016
   - Require Alien::Base 0.024
   - Added t/xs.t and t/ffi.t tests that use Test::Alien

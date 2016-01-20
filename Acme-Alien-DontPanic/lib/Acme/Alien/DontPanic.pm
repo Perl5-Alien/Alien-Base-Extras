@@ -3,7 +3,7 @@ package Acme::Alien::DontPanic;
 use strict;
 use warnings;
 
-our $VERSION = '0.026';
+our $VERSION = '0.027';
 $VERSION = eval $VERSION;
 
 use parent 'Alien::Base';
