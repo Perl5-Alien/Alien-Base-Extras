@@ -25,6 +25,7 @@ my $builder = Alien::Base::ModuleBuild->new(
     'ExtUtils::CBuilder' => 0,
     'Capture::Tiny'      => 0,
     'Test::Alien'        => 0,
+    'Test2'              => '0.000042',
   },
   requires => {
     'perl' => '5.008001',

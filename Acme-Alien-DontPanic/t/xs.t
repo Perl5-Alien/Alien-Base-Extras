@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::Stream -V1;
+use Test2::Bundle::More;
 use Test::Alien;
 use Acme::Alien::DontPanic;
 
