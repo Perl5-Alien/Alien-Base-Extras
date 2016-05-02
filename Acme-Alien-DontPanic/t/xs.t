@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Test2::Bundle::More;
-use Test::Alien;
+use Test::Alien 0.05;
 use Acme::Alien::DontPanic;
 
 plan 3;

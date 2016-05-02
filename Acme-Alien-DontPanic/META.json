@@ -5,7 +5,7 @@
       "Joel A. Berger <joel.a.berger@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4216",
+   "generated_by" : "Module::Build version 0.4218",
    "license" : [
       "perl_5"
    ],
@@ -32,6 +32,7 @@
          "requires" : {
             "Capture::Tiny" : "0",
             "ExtUtils::CBuilder" : "0",
+            "Test2" : "0.000042",
             "Test::Alien" : "0",
             "Test::More" : "0"
          }

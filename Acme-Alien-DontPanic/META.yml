@@ -6,13 +6,14 @@ author:
 build_requires:
   Capture::Tiny: '0'
   ExtUtils::CBuilder: '0'
+  Test2: '0.000042'
   Test::Alien: '0'
   Test::More: '0'
 configure_requires:
   Alien::Base::ModuleBuild: '0.028'
   Module::Build: '0.38'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4216, CPAN::Meta::Converter version 2.150005'
+generated_by: 'Module::Build version 0.4218, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
