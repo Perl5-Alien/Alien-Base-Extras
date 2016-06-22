@@ -1,1 +1,7 @@
-These materials are for testing the Perl module Alien::Base. They should not be used for other purposes.
+THIS REPOSITORY IS DEPRECATED.  The distributions that used to be contained in this repository
+have been split into separate repositories please see:
+
+https://github.com/Perl5-Alien/dontpanic
+https://github.com/Perl5-Alien/Acme-Alien-DontPanic
+https://github.com/Perl5-Alien/Acme-Ford-Prefect
+https://github.com/Perl5-Alien/Acme-Ford-Prefect-FFI
